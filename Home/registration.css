@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;
+    font-family: "Times New Roman", serif;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-weight: bold;
+}
+
+form {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.form-row > label:first-child {
+    width: 275px;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.form-row > input[type="text"],
+.form-row > input[type="email"],
+.form-row > input[type="password"] {
+    width: 570px;
+    height: 44px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 18px;
+    padding: 6px;
+}
+
+/* Student Name */
+
+.student-name {
+    display: flex;
+    align-items: center;
+}
+
+.student-name input {
+    height: 43px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 6px;
+    width: 270px;
+}
+
+.student-name span {
+    font-size: 28px;
+    margin: 0 8px;
+}
+
+/* Date of Birth */
+
+.dob {
+    display: flex;
+    align-items: center;
+}
+
+.dob input {
+    height: 43px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.dob input:nth-of-type(1) {
+    width: 87px;
+}
+
+.dob input:nth-of-type(2) {
+    width: 87px;
+}
+
+.dob input:nth-of-type(3) {
+    width: 140px;
+}
+
+.dob span {
+    font-size: 25px;
+    margin: 0 8px;
+}
+
+.dob i {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* Mobile */
+
+.mobile {
+    display: flex;
+    align-items: center;
+}
+
+.mobile input:first-child {
+    width: 65px;
+    height: 43px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.mobile input:last-child {
+    width: 475px;
+    height: 43px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.mobile span {
+    font-size: 25px;
+    margin: 0 8px;
+}
+
+/* Gender */
+
+.gender {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.gender input {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px 0 0;
+}
+
+.gender span {
+    margin-right: 10px;
+}
+
+/* Department */
+
+.department {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.department label {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.department input {
+    width: 30px;
+    height: 30px;
+    margin: 0 7px 0 0;
+}
+
+/* Course */
+
+select {
+    width: 635px;
+    height: 45px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* File */
+
+input[type="file"] {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+/* Address */
+
+.address-row {
+    align-items: flex-start;
+}
+
+textarea {
+    width: 550px;
+    height: 125px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: white;
+    resize: none;
+    font-size: 18px;
+    padding: 8px;
+}
+
+/* Register Button */
+
+.button-row {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    padding: 5px 12px;
+    background-color: #efefef;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
